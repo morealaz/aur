@@ -1,0 +1,25 @@
+pkgbase = 7-zip-bin
+	pkgdesc = Command-line file archiver with high compression ratio (official build).
+	pkgver = 22.00
+	pkgrel = 1
+	url = https://www.7-zip.org
+	arch = x86_64
+	arch = i686
+	arch = aarch64
+	arch = armv7h
+	license = LGPL
+	provides = 7-zip
+	provides = 7zip
+	conflicts = 7-zip
+	conflicts = 7zip
+	replaces = 7zip-bin
+	source_x86_64 = https://www.7-zip.org/a/7z2200-linux-x64.tar.xz
+	sha256sums_x86_64 = 5290409e7bbe2f133d0bd7e7482548678157ea2be276b0f9cb440600f4be9a2d
+	source_i686 = https://www.7-zip.org/a/7z2200-linux-x86.tar.xz
+	sha256sums_i686 = 3f3df18960079df961cfd34b20c32c673bbafb1228785c91d8446257ba3438ae
+	source_aarch64 = https://www.7-zip.org/a/7z2200-linux-arm64.tar.xz
+	sha256sums_aarch64 = be953c5fe67843d3ae5b30109da82d0ca8becd7087723f7529dbcb0b7170e1a8
+	source_armv7h = https://www.7-zip.org/a/7z2200-linux-arm.tar.xz
+	sha256sums_armv7h = 7c2a78cc44ffc8066133cba16579b2a564109fedeb2ffdafa67c6414f48b9ffa
+
+pkgname = 7-zip-bin
